@@ -54,3 +54,18 @@ mysql -u root -p
 
 how to change the root password
 ALTER USER 'root'@'localhost' IDENTIFIED BY 'MyNewPass';
+
+## mongodb
+
+### install process
+
+* sudo apt update
+* sudo apt-get install mongodb
+
+#### commands
+
+```bash
+sudo service mongodb status 
+sudo service mongodb start
+sudo service mongodb stop
+```
